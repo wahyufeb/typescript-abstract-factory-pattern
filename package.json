@@ -1,0 +1,19 @@
+{
+  "name": "abstract-factory",
+  "version": "1.0.0",
+  "description": "Implement Singleton Design Pattern",
+  "main": "index.js",
+  "scripts": {
+    "start":"tsc-watch --onsuccess \"node ./build/index.js\""
+  },
+  "keywords": [
+    "Design Pattern",
+    "Abstract factory Pattern"
+  ],
+  "author": "Wahyu Febrianto",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^4.4.0",
+    "typescript": "^4.3.5"
+  }
+}
